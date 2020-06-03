@@ -39,27 +39,128 @@
 //     tag: "project",
 //     tagPaddingClass: "project-padding",
 //     linkArray: ";https://github.com/techclubssn;; https://techclubssn.github.io/;"
-//    },  
+//    },     
     {
+     linkTextArray: "GitHub",
+     desc: "In my MS Thesis, I chose to solve the biggest problem in Fintech industry i.e. Money Laundering Detection, through advanced deep learning techniques. I handled Class Imbalance using Deep Generative Models and used Cramer Rao Lower Bound Optimization for handling High volume and high velocity transactional data.",
+     src: "/portfolio/fintech.jpg",
+     title: "Detecting Money Launderers via Density Estimation",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: "https://github.com/muhammadarslanidrees/AML_THESIS"
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "This project was about to identify and report those branchless banking customers who depict anomalous transaction behaviour. Experiments using different anomaly detection techniques were carried out but Isolation Forest proved to be the best as it is easy to interpret.",
+     src: "/portfolio/anomaly.jpeg",
+     title: "Anomaly Detection in Agents Transacting Pattern",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "In this project, Levenshtein distance was used as fuzzy matching algorithm for screening customers portfolio against FATF entities to mitigate the risk of terrorist financing.",
+     src: "/portfolio/sanctions.jpg",
+     title: "Screening Customer's portfolio with Fuzzy Matching",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "In this project, Tree based Machine Learning algorithm was used to identify potential customers likely to buy Personal loan or Credit card in order to enhance the pool of customers.",
+     src: "/portfolio/crosssell.jpg",
+     title: "Predicting Potential Customers for Cross Sell",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "In order to increase the operational efficiency of AML/Compliance analysts, proritized money laundering alerts by developing a Scoring Model using ML algorithm which assigns a risk to each alert and categorize among high, medium and low risk.",
+     src: "/portfolio/operational_efficiency.jpg",
+     title: "Enhancing Operational Efficiency via Risk Scoring",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "Calibrated Transaction Monitoring System Scenarios using Statistical techniques and analysed the impact using ATL/BTL testing in order to improve a financial institution's capability to detect suspicious activity.",
+     src: "/portfolio/tms.jpg",
+     title: "Optimization for Reducing False Positive Alerts",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "Applied clustering to segment customers based on their transaction behavior.",
+     src: "/portfolio/segmentation.jpg",
+     title: "Customer Segmentation based on Transaction Behaviour",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "To evaluate the worthiness of a customer to receive credit, a scoring model was developed using logit and weight of evidence method was used for transformation of non-traditional features. The scorecard was also validated using population and characteristic analysis.",
+     src: "/portfolio/scoring_model.png",
+     title: "Credit Scoring Model",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "GitHub",
+     desc: "Automated the reporting process by developing an end to end BI Application which includes incremental data ingestion, data modelling, transformation and designing interactive dashboards and deploying on Qlikview Server.",
+     src: "/portfolio/automation.jpg",
+     title: "Automated Reporting",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: ""
+    }, 
+    {
+     linkTextArray: "Website",
+     desc: "CDS is an electronic book-entry system used to record and maintain securities and to register the transfer of securities, Using Java as backend and oracle database, I contributed in extending core system with new functionalities and reports.",
+     src: "/portfolio/cds.jpg",
+     title: "Central Depository System (CDS)",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: "https://www.cdcpakistan.com/"
+    }, 
+    {
+     linkTextArray: "Website",
+     desc: "This is a book entry service providing solution of Central Depository Company to its clients. I contributed in developing different reports and enhancing system capabilities using Java.",
+     src: "/portfolio/rta.png",
+     title: "Share Registrar and Transfer Agent (RTA)",
+     color: "blue",
+     tag: "project",
+     tagPaddingClass: "project-padding",
+     linkArray: "https://www.cdcsrsl.com/en/"
+    }, 
+        //BLOGS
+     {
      linkTextArray: "Website",
      desc: "A series of tutorials for developing apps for Windows (Phone & Store), windows azure and developing games in unity 3d",
      src: "/portfolio/windows.jpg",
      title: "Learn Windows App Development",
      color: "red",
      tag: "blog",
-     tagPaddingClass: "project-padding",
+     tagPaddingClass: "blog-padding",
      linkArray: "http://learnwindowsdevelopment.blogspot.com/"
     }, 
-//    {
-//     linkTextArray: "GitHub",
-//     desc: "Fabrik is a web-app where you can collaboratively design neural networks on a GUI and export it to popular ML frameworks.",
-//     src: "/portfolio/fabrik.jpeg",
-//     title: "Fabrik",
-//     color: "blue",
-//     tag: "project",
-//     tagPaddingClass: "project-padding",
-//     linkArray: "https://github.com/Cloud-CV/Fabrik"
-//    }, 
     {
      linkTextArray: "Medium",
      desc: "Tutorial on how to deploy deep learning models using TensorFlow Serving with docker and flask.",
@@ -69,7 +170,79 @@
      tag: "blog",
      tagPaddingClass: "blog-padding",
      linkArray: "https://towardsdatascience.com/deploying-deep-learning-models-using-tensorflow-serving-with-docker-and-flask-3b9a76ffbbda"
-    }]
+    },
+//        ,  //MOOCS
+    {
+     linkTextArray: "Coursera",
+     desc: "In this specialization, I did hands-on with tensorflow and went deeper into Machine Learning and the practice of understanding loss functions, optimizers, neural networks and different types of layers, from convolutions to recurrent or LSTM.",
+     src: "/portfolio/tensorflow.jpg",
+     title: "Tensorflow in Practice",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://coursera.org/share/d4d9f4e1cf580db2910205486bfaa67c"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned strategies to prevent overfitting, including augmentation and dropout. Handled real-world image data and learned transfer learning, extracted learned features from models.",
+     src: "/portfolio/cnn.jpg",
+     title: "CNNs in Tensorflow",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.coursera.org/account/accomplishments/certificate/2D52SBNMFXGK"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned the best practices for using tensorflow and built and trained a basic nueral network for a computer vision application.",
+     src: "/portfolio/tensorflow_coursera.png",
+     title: "Introduction to TensorFlow for AI, ML, and DL",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.coursera.org/account/accomplishments/certificate/8F7LCCXQHZ62"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned to process text including tokenization and representing sentences as vectors. Trained RNNs, GRUs and LSTMs, also applied LSTM on existing text to create original poetry.",
+     src: "/portfolio/nlp.png",
+     title: "NLP in TensorFlow",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.coursera.org/account/accomplishments/certificate/JXYAUWB3FMQS"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned to prepare data for time series and applied RNNs and ConvNet for solving time series and forecasting problems, also build a sunspot prediction model using real-world data.",
+     src: "/portfolio/timeseries.png",
+     title: "Sequences, Time Series and Prediction",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.coursera.org/account/accomplishments/certificate/9NWZ6YDCDF6Z"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned the concepts and technologies for End-to-End Machine Learning with TensorFlow on Google Cloud Platform using python as programming language.",
+     src: "/portfolio/gcp.png",
+     title: "End-to-End ML with TensorFlow on GCP",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.coursera.org/account/accomplishments/certificate/U8R8RK7KJZKC"
+    },
+    {
+     linkTextArray: "Coursera",
+     desc: "In this course, I learned to build interactive web apps straight from R, an approach to tell the data story interactively.",
+     src: "/portfolio/rshiny.png",
+     title: "Building Web Applications in R with Shiny",
+     color: "blue",
+     tag: "blog",
+     tagPaddingClass: "blog-padding",
+     linkArray: "https://www.datacamp.com/statement-of-accomplishment/course/44aa89578dfee6b19fe5a59b08640920ce1c56aa"
+    }
+    ]
    }
   },
   116: function(e) {
@@ -707,17 +880,18 @@
         onClick: function() {
          return e.toggleClass("blog")
         }
-       }, "Blogs"), i.a.createElement("button", {
+       }, "Blogs / MOOCs"), i.a.createElement("button", {
         className: "btn btn-danger",
         onClick: function() {
          return e.toggleClass("project")
         }
-       }, "Projects"), i.a.createElement("button", {
-        className: "btn btn-danger",
-        onClick: function() {
-         return e.toggleClass("moocs")
-        }
-       }, "MOOCs")
+       }, "Projects")
+//                            , i.a.createElement("button", {
+//        className: "btn btn-danger",
+//        onClick: function() {
+//         return e.toggleClass("moocs")
+//        }
+//       }, "MOOCs")
 //                           ), i.a.createElement("button", {
 //        className: "btn btn-danger",
 //        onClick: function() {
